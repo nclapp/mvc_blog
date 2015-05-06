@@ -4,5 +4,6 @@ class CreateTags < ActiveRecord::Migration
   		t.string :tagword, null: false, unique: true
 
   		t.timestamps null: false
+  	end
   end
 end
